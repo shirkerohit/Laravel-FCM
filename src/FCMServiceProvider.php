@@ -6,7 +6,6 @@ use Illuminate\Support\Str;
 use LaravelFCM\Sender\FCMGroup;
 use LaravelFCM\Sender\FCMSender;
 use Illuminate\Support\ServiceProvider;
-use Str;
 
 class FCMServiceProvider extends ServiceProvider
 {
