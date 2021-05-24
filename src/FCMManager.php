@@ -9,13 +9,13 @@ class FCMManager extends Manager
 {
     public function getDefaultDriver()
     {
-        return $this->app[ 'config' ][ 'fcm.driver' ];
+        return config('fcm.driver');
     }
 
     protected function createHttpDriver()
     {
-        $config = $this->app[ 'config' ]->get('fcm.http', []);
+        $config = config('fcm.http', []);
 
-        return new Client(['timeout' => $config[ 'timeout' ]]);
+        return new Client(['timeout' => $config['timeout']]);
     }
 }
