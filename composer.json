@@ -20,14 +20,14 @@
     ],
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^6|^7|^8|^9|^10",
+        "illuminate/support": "^6|^7|^8|^9|^10|^11",
         "guzzlehttp/guzzle": "^7",
         "monolog/monolog": "^2"
     },
     "require-dev": {
         "mockery/mockery": "^1.6",
         "phpunit/phpunit": "^8.5",
-        "php-coveralls/php-coveralls": "^2.6",
+        "php-coveralls/php-coveralls": "^2.7",
         "laravel/laravel": "^6|^7|^8|^9|^10|^11"
     },
     "autoload": {
